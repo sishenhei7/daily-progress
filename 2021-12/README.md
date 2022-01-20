@@ -1,3 +1,9 @@
+# daily progress
+
+> 正在看这个项目的那位，没错就是你，你以后绝对会有出息真的
+
+## 内容
+
 【2021.12.6】今天看了 vue2.x 从 entry 到 init 的过程：
 
 - 它把很多 api 挂载到了 Vue 和 Vue.config 上面。
