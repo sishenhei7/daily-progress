@@ -99,3 +99,7 @@
 【2022.1.19】今天在调研 tailwind css 和 windicss，考虑项目的 css 方案，最终接入了 windicss
 
 【2022.1.20】今天在调研 icon 方案，最终使用了 antfu 的 icon 方案。并且在学习windicss的语法，写了一部分博客的业务组件。
+
+【2022.1.21】今天在写[blog-monorepo](https://github.com/sishenhei7/blog-monorepo)
+
+【2022.1.22】今天去爬山了，然后在捣鼓rust。
