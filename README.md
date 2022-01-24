@@ -105,3 +105,5 @@
 【2022.1.22】今天去爬山了，然后在捣鼓rust。
 
 【2022.1.23】今天在看[rust 权威指南](https://book.douban.com/subject/35081743/)
+
+【2022.1.24】今天写了一部分[blog-monorepo](https://github.com/sishenhei7/blog-monorepo)，然后在看[rust 权威指南](https://book.douban.com/subject/35081743/)
