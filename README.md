@@ -107,3 +107,10 @@
 【2022.1.23】今天在看[rust 权威指南](https://book.douban.com/subject/35081743/)
 
 【2022.1.24】今天写了一部分[blog-monorepo](https://github.com/sishenhei7/blog-monorepo)，然后在看[rust 权威指南](https://book.douban.com/subject/35081743/)
+
+【2022.1.25】今天在给[blog-monorepo](https://github.com/sishenhei7/blog-monorepo)加入api
+
+【2022.1.26】今天在研究env的导入方式
+
+【2022.1.27】今天在修改[blog-monorepo](https://github.com/sishenhei7/blog-monorepo)里面env的导入方式
+- vite里面修改环境变量需要重启才能生效
