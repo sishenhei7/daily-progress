@@ -114,3 +114,8 @@
 
 【2022.1.27】今天在修改[blog-monorepo](https://github.com/sishenhei7/blog-monorepo)里面env的导入方式
 - vite里面修改环境变量需要重启才能生效
+- vue3 的 setup 里面的内容貌似全部会在 ssr server 端执行？
+
+【2022.1.28】今天坐车回老家
+
+【2022.1.29】今天在老家见家人
