@@ -11,3 +11,7 @@
 ## 内容
 
 【2022.2.1~2022.2.6】过年，看完了东野圭吾的[《恶意》](https://book.douban.com/subject/3646172/)
+
+【2022.2.7】在看面试题和[《effective typescript》](https://book.douban.com/subject/34893998/)，有点迷茫不知道干啥
+
+【2022.2.8】在看 vue3 的源码，明天写总结
