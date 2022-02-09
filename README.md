@@ -14,9 +14,9 @@
 
 【2022.2.7】在看面试题和[《effective typescript》](https://book.douban.com/subject/34893998/)，有点迷茫不知道干啥
 
-【2022.2.8】在看 vue3 的源码，明天写总结
+【2022.2.8】在看 vue3 的源码，这周看完写总结
 
-【2022.2.9】今天在看[《剑指前端offer》](https://febook.hzfe.org/awesome-interview/book1/network-security)
+【2022.2.9】今天在看[《剑指前端offer》](https://febook.hzfe.org/awesome-interview/book1/network-security)，看vue3源码看到了updateEffect那里
 
 - xss 是跨站脚本攻击，是指攻击者利用漏洞将脚本代码注入到其它用浏览器的攻击方式，常见的类型有反射型，储存型和dom型。反射型是指攻击者通过在 url 上加上恶意代码，然后服务器在取出恶意代码之后拼接到 html 里面返回给用户浏览器。储存型是指，攻击者把恶意代码储存到服务器数据库里面，用户在访问的时候，服务器把这段恶意代码注入到用户浏览器里面。dom型是指攻击者不经过服务器，直接通过在 url 上面加上恶意代码，用户在打开 url 的时候，页面执行 url 上面的恶意代码。
 - 怎么防范 xss？1.对外部输入的内容进行充分转义；开启CSP，规定哪些外部资源可以加载和执行；设置httponly属性，禁止js读取cookie。
