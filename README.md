@@ -26,6 +26,12 @@
 - 浏览器渲染流程：处理html标记生成dom树；根据css样式表，计算出dom所有节点的样式；计算每个元素的布局信息；分层渲染；合成。
 - 浏览器打开url做了些什么？思路：1.浏览器对url的智能建议、智能补充、清空之前的页面。2.dns解析，根据url的域名查找ip地址。3.使用一个随机端口通过socket连接操作系统构造http请求，操作系统连接网卡，通过网卡把请求发出去。此时如果数据包太大，会把数据包进行分块。4.和服务器进行三次握手连接上TCP，如果使用https又进行https握手，然后进行传输数据，传输完毕之后进行TCP四次挥手。5.浏览器接收到html数据之后就进行渲染了，详细见渲染流程。
 
+【2022.2.10】今天在看vue3源码
+
+- [细说 Vue.js 3.2 关于响应式部分的优化](https://juejin.cn/post/6995732683435278344)
+- [Thoughts on ES6 Proxies Performance](https://thecodebarbarian.com/thoughts-on-es6-proxies-performance)
+- [Object.observe为何要被移除？](https://github.com/luokuning/blogs/issues/1)
+
 
 
 
