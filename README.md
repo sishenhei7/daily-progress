@@ -32,7 +32,7 @@
 - [Thoughts on ES6 Proxies Performance](https://thecodebarbarian.com/thoughts-on-es6-proxies-performance)
 - [Object.observe为何要被移除？](https://github.com/luokuning/blogs/issues/1)
 
-【2022.2.10】今天在看vue3源码，并且研究了一下 ts 里面的 extends
+【2022.2.11】今天在看vue3源码，并且研究了一下 ts 里面的 extends
 
 - [Typescript中的extends关键字](https://blog.csdn.net/qq_34998786/article/details/120300361?spm=1001.2014.3001.5502)
 - [基于 Vue3 和 TS4 项目大量实践后的总结](https://blog.csdn.net/qq_34998786/article/details/121601292)
