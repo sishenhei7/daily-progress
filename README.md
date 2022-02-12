@@ -37,7 +37,7 @@
 - [Typescript中的extends关键字](https://blog.csdn.net/qq_34998786/article/details/120300361?spm=1001.2014.3001.5502)
 - [基于 Vue3 和 TS4 项目大量实践后的总结](https://blog.csdn.net/qq_34998786/article/details/121601292)
 
-
+【2022.2.12】今天在看[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)
 
 
 
