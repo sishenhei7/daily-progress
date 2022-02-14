@@ -41,4 +41,4 @@
 
 【2022.2.13】今天在看[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)的第二章
 
-
+【2022.2.14】今天在看[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)的第三章
