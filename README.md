@@ -46,3 +46,5 @@
 【2022.2.15】今天在搭xv6的环境
 
 【2022.2.16】今天搭完了xv6的环境，在学习 C 语言调试
+
+【2022.2.17】今天在学[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)
