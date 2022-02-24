@@ -48,3 +48,17 @@
 【2022.2.16】今天搭完了xv6的环境，在学习 C 语言调试
 
 【2022.2.17】今天在学[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)
+
+【2022.2.18】今天在做[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)的实验
+
+【2022.2.19】今天在做[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)的实验
+
+【2022.2.20】今天在做[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)的实验
+
+【2022.2.21】今天在做[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)的实验
+
+【2022.2.22】今天在看[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)
+
+【2022.2.23】今天在做[操作系统](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/lec01-introduction-and-examples/1.3-why-hard-and-interesting)的实验
+
+【2022.2.24】今天在看[C程序设计语言](https://book.douban.com/subject/1139336/)
