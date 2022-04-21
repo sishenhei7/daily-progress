@@ -59,3 +59,8 @@ function deepCopy(value: any, hashMap = new WeakMap<any>()) {
 1.从使用场景上来说，cjs是执行时加载，执行到加载语句的地方才开始加载，所以适用于加载很快速的场景，比如模块在本地的nodejs；esm是编译时加载，在编译的时候就开始加载，适用于加载没那么快的场景，比如浏览器。
 2.从输出值上来说，他们对于对象类型，输出的都是值的引用；但是对于基本类型，cjs输出的是值的引用；esm输出的是值的拷贝。所以在esm里面不允许修改导入的值。
 
+- 内存泄漏
+1.使用--inspect指令连接浏览器进行调试node，https://nodejs.org/en/docs/guides/debugging-getting-started/
+2.在浏览器的memory栏生成快照，对比快照定位泄漏的地方。
+3.对于产线环境，以前是使用heapdump包生成快照，现在node内置快照模块，https://dev.to/bengl/node-js-heap-dumps-in-2021-5akm，我们生成快照之后导入浏览器进行定位。
+
