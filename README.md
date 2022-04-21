@@ -35,7 +35,7 @@
 - js 里面没有引用传递，都是值传递，只不过对于简单类型，传递的值是值，对于复合类型，传递的值是引用。
 - 使用 process.memoryUsage() 和 process.memoryUsage.rss() 查看 nodejs 的内存使用情况。
 
-【2022.4.21】
+【2022.4.21】在看node-interview中的[模块](https://github.com/ElemeFE/node-interview/blob/master/sections/zh-cn/module.md)
 
 - 编写一个 json 对象的拷贝函数：
 
