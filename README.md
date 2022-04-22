@@ -64,3 +64,12 @@ function deepCopy(value: any, hashMap = new WeakMap<any>()) {
 2.在浏览器的memory栏生成快照，对比快照定位泄漏的地方。
 3.对于产线环境，以前是使用heapdump包生成快照，现在node内置快照模块，https://dev.to/bengl/node-js-heap-dumps-in-2021-5akm，我们生成快照之后导入浏览器进行定位。
 
+【2022.4.22】
+
+- treeshaking相关：
+1.在库的pkg里面设置sideeffects可以开启对此库的treeshaking，否则不会对这个库进行treeshaking。
+2.在函数执行的前面添加```/*#__PURE__*/```可以将此函数执行标记为无副作用的，没有被导入的话就会被treeshaking掉。
+3.可以通过动态导入达到类似treeshaking的目的，但比不上treeshaking。动态导入运用了import的能力，不全量导入这个库，而是全量导入这个库的一部分文件。
+4.如果import的路径是一个正则活动带变量的话，导入的时候会把静态路径文件夹的内容全部打包进去。
+5.treeshaking的原理是借助了import的静态性，它里面没有动态内容，所以在编译阶段生成ast的时候，能够提前知道文件导入了哪些内容，导出了哪些内容，然后就可以对那些没有用到的导出做一些标记，然后在代码生成的阶段，删掉这些标记的内容。
+
