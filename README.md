@@ -64,3 +64,13 @@ function deepCopy(value: any, hashMap = new WeakMap<any>()) {
 2.在浏览器的memory栏生成快照，对比快照定位泄漏的地方。
 3.对于产线环境，以前是使用heapdump包生成快照，现在node内置快照模块，https://dev.to/bengl/node-js-heap-dumps-in-2021-5akm，我们生成快照之后导入浏览器进行定位。
 
+【2022.4.21】继续看八股文 + 基础知识
+
+- node 在调用 require 的时候，会执行以下步骤：
+1.解析：找到文件的绝对路径。
+2.加载：确定文件的类型。
+3.封装：使用函数将文件代码封装起来，给它一个独立的上下文。
+4.评估：执行文件代码
+5.缓存：缓存到module.exports里面去
+
+
