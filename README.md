@@ -111,7 +111,7 @@ function sleep(ms) {
 - 事件循环
 1.浏览器里面的事件循环比较简单，指的是浏览器在执行同步代码的时候，会把它们放到一个宏任务队列里面去执行，通过宏任务api可以把部分任务放到宏任务队列尾部，这样宏任务队列一个个一次执行；但是这样有一个问题，就是部分宏任务代码要等很长时间才能执行，不适用于一些实时性要求高的场景，为了解决这个问题，每个宏任务队列又有一个微任务队列，通过微任务api可以把部分任务放到微任务队列里面去，当当前的宏任务队列执行完毕之后，会依次执行微任务队列里面的任务，当前微任务队列里面的任务执行完毕之后，再执行下一个宏任务。在浏览器里面还有一个UI渲染，在微任务队列执行完毕之后，下一个宏任务执行之前执行。
 2.浏览器中的宏任务api：settimeout、setinterval、messageChannel、requestAnimationFrame、IO等。
-3.node里面的事件循环要复杂的多，它把宏任务队列分为好几个部分，依次是timer、poll、check等部分。其中check负责执行settimeout、setinterval的宏任务、poll负责执行IO的宏任务、check负责执行setimmediate的宏任务。微任务也分为好几个部分，依次是process.nextTick、promise、其它微任务。就这样按次序执行宏任务和微任务。
+3.node里面的事件循环要复杂的多，它把宏任务队列分为好几个部分，依次是timer、poll、check等部分。其中check负责执行settimeout、setinterval的宏任务、poll负责执行IO的宏任务、check负责执行setimmediate的宏任务。上面每个宏任务阶段执行之后，都会执行所有当前宏任务下的微任务，微任务也分为好几个部分，依次是process.nextTick、promise、其它微任务。就这样按次序执行宏任务和微任务。
 
 - v8的执行过程
 1.v8采用即时编译jit技术，混合编译执行和解释执行
