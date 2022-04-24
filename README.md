@@ -23,6 +23,7 @@
 6.看完微信读书上线的函数式rust编程（选看）
 7.看完这里的博客，https://github.com/qappleh/Interview/issues
 8.看完这里的内容，https://f2qrvzh48g.feishu.cn/docs/doccnFNAUepxSBYCL08EyzXCjOc（选看）
+9.想学一下docker
 
 - 想弄清楚的几个问题：
 1.js里面不同类型不同环境下变量的内存是怎么释放的？
@@ -64,7 +65,7 @@ function deepCopy(value: any, hashMap = new WeakMap<any>()) {
 2.在浏览器的memory栏生成快照，对比快照定位泄漏的地方。
 3.对于产线环境，以前是使用heapdump包生成快照，现在node内置快照模块，https://dev.to/bengl/node-js-heap-dumps-in-2021-5akm，我们生成快照之后导入浏览器进行定位。
 
-【2022.4.21】继续看八股文 + 基础知识
+【2022.4.22】继续看八股文 + 基础知识
 
 - node 在调用 require 的时候，会执行以下步骤：
 1.解析：找到文件的绝对路径。
@@ -82,6 +83,29 @@ function deepCopy(value: any, hashMap = new WeakMap<any>()) {
 
 - js里面不同类型不同环境下变量的内存是怎么释放的？
 1.对于栈上面的变量，在相关的上下文执行结束的时候，esp指针会下移，导致栈上的变量的内存自动被回收掉了
-2.对于堆上面的变量，
-3.对于堆外内存，
+2.对于堆上面的变量，基本方式是先标记所有被引用到的变量，然后清理没有被标记的变量；为了加快速度，把堆分为新生代和老生代两种区域，新生代存生命周期短并且占用内存小的变量；老生代存生命周期长或者占用内存大的变量。在新生代使用scavenge的方法清理内存，即把新生代分为两个相等的区域，内存分配的时候只在其中一个区域进行内存分配，然后在gc的时候，先标记出有被引用到的变量，然后把这些变量复制到另一个区域，复制完之后清空之前的那个区域；老生代使用标记清除的方式，先标记出有被引用到的变量，然后释放未被引用到的变量，在内存碎片多的时候会朝着一端复制变量，同时使用了增量标记的方式来加快速度。
+3.对于堆外内存，也是由 js 的 gc 来清除，但是不是用上面任何一种方式。堆外内存在创建的时候会自动加上一个释放内存的钩子函数，每次gc的时候，gc会判断对外内存的引用情况，然后调用这个钩子函数来释放内存。
+
+【2022.4.24】继续看八股文 + 基础知识
+
+- promise 的reduce写法
+
+```ts
+promiseArr.reduce(
+  (accu, curr) => accu.then((result) => curr.then(res => [...result, res])), Promise.resolve([])
+)
+```
+
+- promise.then的第二个参数和catch的区别：1.前者不能捕获到第一个参数里面的错误。（所以永远不建议使用第二个参数，而应该使用catch）2.前者和后者在不同的事件循环里面。
+
+- 实现一个 sleep 函数：
+
+```ts
+function sleep(ms) {
+  const start = Date.now()
+  const expire = start + ms
+  while(Date.now() < expire) {}
+}
+```
+
 
