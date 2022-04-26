@@ -169,3 +169,14 @@ node -p -e "Boolean(process.stdout.isTTY)"
 ```
 
 - this的规则？怎么实现软绑定？
+1.this遵循如下四条规则（优先级从低到高）：a.默认绑定，严格模式下是undefined；b.对象调用，指向最近的那个对象；c.硬绑定：使用call、apply、bind绑定到指定对象。d.new调用，绑定到新创建的对象。
+2.软绑定是指当碰到默认绑定时，this指向绑定的对象；碰到对象调用、硬绑定或者new调用的时候，this指向对应的对象。
+
+```ts
+function bind(func: Function, obj: object) {
+  const that = obj
+  return function (...args) {
+    return func.call([window, undefined].includes(this) ? obj : this, ...args)
+  }
+}
+```
