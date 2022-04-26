@@ -163,3 +163,7 @@ function sleep(ms) {
 - 什么是DNS
 早期在使用TCP/IP通信的时候，ip地址是一串比较长的数字，很难记；于是人们想了一个办法，给ip设置一个别名，这样只需要记住别名就可以了，这个别名就是今天的域名，而记录这个域名和ip地址对应关系的服务就是DNS。（Domain Name Service）
 
+- 使用node直接运行命令
+```bash
+node -p -e "Boolean(process.stdout.isTTY)"
+```
