@@ -167,3 +167,5 @@ function sleep(ms) {
 ```bash
 node -p -e "Boolean(process.stdout.isTTY)"
 ```
+
+- this的规则？怎么实现软绑定？
