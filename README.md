@@ -199,3 +199,46 @@ function bind(func: Function, obj: object) {
 
 - 想做的事
 1.使用 rust 刷完[rust by examples](https://doc.rust-lang.org/stable/rust-by-example/)
+
+- 什么是覆盖率？有什么用？
+1.覆盖率是指代码中各项逻辑被测试覆盖到的比率，通常分为行覆盖率、函数覆盖率、分支覆盖率和语句覆盖率。把覆盖率作为目标没有意义，而应该把它作为一种发现未被测试覆盖的一种手段。
+
+- 测试分为哪几个阶段？
+1.分为白盒测试（测试应用程序内部的结构或运作，需要了解内部结构）和黑盒测试（测试应用程序的功能，不需要了解内部结构）。
+2.单元测试、基准测试、压力测试、集成测试、系统测试（白盒->黑盒）
+
+- mock 是什么? 一般在什么情况下 mock?
+1.mock主要用于单元测试中，当一个测试的对象可能依赖其他的对象，为了确保测试对象不受影响，可以通过模拟其他对象的行为来隔离你要测试的对象。mock就是模拟其他对象的行为。
+
+- 过滤 Html 标签能否防止 XSS? 请列举不能的情况?
+
+1.可以使用图片 url 等方式来上传脚本进行攻击
+
+```
+<table background="javascript:alert(/xss/)"></table>
+<img src="javascript:alert('xss')">
+```
+
+2.可以使用各种方式来回避检查, 例如空格, 回车, Tab
+
+```
+<img src="javas cript:
+alert('xss')">
+```
+
+3.可以使用编码转换
+
+```
+<img%20src=%22javascript:alert('xss');%22>
+<img src="javascrip&#116&#58alert(/xss/)">
+```
+
+- HSTS、csp怎么添加？
+
+1.HSTS只需要添加一个Strict-Transport-Security响应头就可以了，nginx中的配置如下：
+
+```
+add_header Strict-Transport-Security max-age=63072000; includeSubdomains
+```
+
+2.CSP只需要添加一个Content-Security-Policy响应头就可以了。
