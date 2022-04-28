@@ -26,11 +26,11 @@
 9.想学一下docker
 
 - 想弄清楚的几个问题：
-1.js里面不同类型不同环境下变量的内存是怎么释放的？
-2.v8的JS执行过程
+1.js里面不同类型不同环境下变量的内存是怎么释放的？✅
+2.v8的JS执行过程 ✅
 3.electron底层原理
-4.tree sharking 实现原理，为什么ESM可以tree sharking
-5.buffer 堆外内存的更多信息
+4.tree sharking 实现原理，为什么ESM可以tree sharking ✅
+5.buffer 堆外内存的更多信息 ✅
 
 - 类型判断：什么场景下使用typeof、instanceof、tostring？es6的类型判断？window、dom元素的类型判断？constructor存在的意义和用途？getPrototypeOf和prototype？for in和hasOwnProperty？
 - js 里面没有引用传递，都是值传递，只不过对于简单类型，传递的值是值，对于复合类型，传递的值是引用。
@@ -194,3 +194,8 @@ function bind(func: Function, obj: object) {
 - gc 在使用标记计数的时候怎么处理循环依赖的？
 1.现代js的gc没有使用标记计数了，而是判断的是从root到节点的可达性，使用三色标记的方式。（有点像拓扑排序，但是拓扑排序是不能处理有环的情况的，但是能判断有没有环。）
 2.如果非要用标记计数的话，使用强计数和弱计数的方式可以避免循环依赖。
+
+【2022.4.26】继续看八股文 + 基础知识 + 开始[用 rust 刷题]
+
+- 想做的事
+1.使用 rust 刷完[rust by examples](https://doc.rust-lang.org/stable/rust-by-example/)
