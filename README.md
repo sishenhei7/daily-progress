@@ -17,7 +17,7 @@
 - 想做的事：
 1.给自己写的vue3加上unit test
 2.看完微信读书上面的react hooks
-3.看完node-interview，https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn
+3.看完node-interview，https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn ✅
 4.看完微信读书上面的rust教程
 5.再看一遍你所不知道的js
 6.看完微信读书上线的函数式rust编程（选看）
