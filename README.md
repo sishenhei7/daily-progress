@@ -195,7 +195,7 @@ function bind(func: Function, obj: object) {
 1.现代js的gc没有使用标记计数了，而是判断的是从root到节点的可达性，使用三色标记的方式。（有点像拓扑排序，但是拓扑排序是不能处理有环的情况的，但是能判断有没有环。）
 2.如果非要用标记计数的话，使用强计数和弱计数的方式可以避免循环依赖。
 
-【2022.4.26】继续看八股文 + 基础知识 + 开始[用 rust 刷题]
+【2022.4.28】继续看八股文 + 基础知识 + 开始[用 rust 刷题]
 
 - 想做的事
 1.使用 rust 刷完[rust by examples](https://doc.rust-lang.org/stable/rust-by-example/)
@@ -242,3 +242,7 @@ add_header Strict-Transport-Security max-age=63072000; includeSubdomains
 ```
 
 2.CSP只需要添加一个Content-Security-Policy响应头就可以了。
+
+【2022.4.28】继续看八股文 + 基础知识
+
+- 原型链、继承、类
