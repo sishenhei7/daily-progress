@@ -2,7 +2,7 @@
 
 > 正在看这个项目的那位，没错就是你，你以后绝对会有出息真的
 
-> 日报坚持不下来，改成周报试试，每周日对这一周做详细总结（2022-06-06），类似[manjusaka的周报](https://www.manjusaka.blog/weekly/2022-06-week1.html)
+> （2022-06-06）日报坚持不下来，改成周报试试，每周日对这一周做详细总结，类似[manjusaka的周报](https://www.manjusaka.blog/weekly/2022-06-week1.html)
 
 ## 存档
 
