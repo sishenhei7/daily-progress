@@ -80,7 +80,7 @@
 2. 周末打了 2 场 leetcode 周赛，都做出来了前三题，第四题都有一些思路但是没有做出来。感觉非常棒，比做每日一题爽多了，决定以后每周都要打周赛，争取把排名升上去。刷每日一题的时候研究了下线段树算法；打周赛的时候学会了并查集和dfs时间戳算法。打周赛的时候看到排名前十的大佬们几分钟解决一道中等题，十几分钟解决一道困难题，真的很羡慕，感觉眼界再一次变得宽阔了，觉得困难题也就那样，既然大佬们能那么快解决困难题，我为什么不能把困难题当做平常的事情呢？不要把困难题太当回事，也不要把解决了一道困难当做什么了不起的事情，基本操作罢了。
 3. 继续在看[Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)，看到了第八章，开始深入了解 haskell 的类型理论。在周会上给同事分享了一下 haskell 函数式编程和 js 函数式编程的不同点。
 4. [MIT公开课-分布式系统](https://www.bilibili.com/video/BV1qk4y197bB?p=3&vd_source=c6be3f72a67d4ae3e8f5ed24365119e5)学完了第四课，这一节课主要是讨论容错和副本的问题。有了副本之后，我们需要进行状态同步，一般有 2 种方式：复制内存和复制状态机。这节课讨论的 VMware 使用复制状态机这种方式。在这里面又有四个问题：同步怎样的状态（指令序号+类型+数据）；怎么避免 Primary 崩溃之后 Backup 接管服务导致的状态丢失（Output Rule，在 Backup ack 状态之后再输出）；怎么解决重复输出的问题（任何分布式系统都有这个问题，目前是用 tcp 序列号解决的）；怎么解决脑裂问题（使用 test-and-set 服务）。突然发现之前的 labs 都还没有做，于是把相关的 labs 都放到 [github 仓库](https://github.com/sishenhei7/6.824-2020) 里面去了，下周应该专注于做 labs 了。
-5. 给 [leetcode-crawler](https://github.com/sishenhei7/leetcode-crawler) 项目加入并完善了的 github action，制定了项目使命和项目计划，后面开始开发前端界面了。
+5. 给 [leetcode-crawler](https://github.com/sishenhei7/leetcode-crawler) 项目加入并完善了 github action，制定了项目使命和项目计划，后面开始开发前端界面了。
 6. 有了解一些前沿的东西：[webcontainer](https://zhuanlan.zhihu.com/p/446329929) 和 [wasm-react](https://github.com/yishn/wasm-react/)，还有[北大编译实践在线文档](https://pku-minic.github.io/online-doc/#/)和 [topcoder](https://www.topcoder.com/challenges/8b4ce36a-17f6-4719-82fb-cdff980ad462)，但是都没有深入去了解，后面有时间一定要研究一下。
 
 ### 总结
