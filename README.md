@@ -49,7 +49,7 @@
 
 ### 技术
 
-1. 这周打了两场 leetcode 周赛，打的时候脑子清醒了一些，两次都在前 500 名以内（希望后面能打进 200 名），感觉挺有成就感的。其中有一次周赛在最后 2 分钟 AC 了一题，真的太刺激了。但两次都没有做出第四题来，后面那次周赛无限接近，超时之后想了1个小时还是没有想出来，感觉好可惜。另外发现了 2 本比较好的书: [挑战程序设计竞赛](https://book.douban.com/subject/24749842/) 和 [算法竞赛入门经典](https://book.douban.com/subject/4138920/)，后面可以找时间看一下。
+1. 这周打了两场 leetcode 周赛，打的时候脑子清醒了一些，两次都在前 500 名以内（希望后面能打进 200 名），感觉挺有成就感的。其中有一次周赛在最后 2 分钟 AC 了一题，真的太刺激了。但两次都没有做出第四题来，后面那次周赛无限接近，超时之后想了1个小时还是没有想出来，感觉好可惜。另外发现了 2 本比较好的书: [挑战程序设计竞赛](https://book.douban.com/subject/24749842/) 和 [算法竞赛入门经典](https://book.douban.com/subject/4138920/)，后面可以找时间看一下。想了下为什么最近这么热衷于打周赛，一个是因为我是数学专业的，希望能在这里发挥我的特长；另一个是因为想训练下自己在紧张环境下的抗压能力；最后是打周赛挺刺激挺爽的。
 2. 发现 cps 只是一个编程概念，而不是一个语法或者解决问题的方法，而协程这个语法是由编译器实现的而不是用 cps 实现的，所以我之前的理解的方向有些偏。所以我又跑去看[EOPL](https://book.douban.com/subject/3136252/)了，希望能理清楚 continuation 相关的东西，碰巧我对编译器也挺感兴趣的。看的时候又又跑去把 scheme 的语法看了，这是相关资料：[Scheme](https://people.csail.mit.edu/jaffer/r5rs_toc.html) 和 [Scheme入门教程](http://deathking.github.io/yast-cn/)
 3. [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)、[MIT公开课-分布式系统](https://www.bilibili.com/video/BV1qk4y197bB?p=3&vd_source=c6be3f72a67d4ae3e8f5ed24365119e5)和[leetcode-crawler](https://github.com/sishenhei7/leetcode-crawler)这周又鸽了，罪过罪过。
 
