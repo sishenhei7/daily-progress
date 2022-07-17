@@ -72,7 +72,8 @@
 1. 这周周赛被 bigint 坑了，第三题 testcase 没有通过，想了好久没找到原因，最后被别人提醒才发现是 bigint 的锅，再加上这周的周赛又很简单，导致最后即使 AC 了四题，最终排名却排到了 2200+。这次是第一次发现，周赛的 testcase 还能 hidden 不显示原因的。然后上周的第三题还被 rejudge 并且被判不通过，导致排名从 400+ 掉到了 2000+，最后看了一下题才发现，有个场景没有考虑到，真的太亏了，要是在比赛的时候发现只会扣 5 分钟，不至于掉这么多排名。离获得 knight 勋章又多了好几周了。
 2. 这周把 [MIT公开课-分布式系统](https://www.bilibili.com/video/BV1qk4y197bB?p=3&vd_source=c6be3f72a67d4ae3e8f5ed24365119e5) 的 mapreduce lab 做完了，test 全部 pass 了，挺有成就感的。raft 的 paper 也看了一半了。
 3. [EOPL](https://book.douban.com/subject/3136252/) 看完了前两章，目前没发现啥有意思的东西，只是在理清和适应相关概念和写法。
-4. [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)和[leetcode-crawler](https://github.com/sishenhei7/leetcode-crawler)这周鸽了，罪过罪过。
+4. [leetcode-crawler](https://github.com/sishenhei7/leetcode-crawler)修了一个bug。
+5. [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)这周鸽了，罪过罪过。
 
 ### 总结
 
