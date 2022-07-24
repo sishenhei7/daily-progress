@@ -96,6 +96,7 @@
 2. 这周把 [MIT公开课-分布式系统](https://www.bilibili.com/video/BV1qk4y197bB?p=3&vd_source=c6be3f72a67d4ae3e8f5ed24365119e5) 的 raft 课程学完了（有 2 课，paper 见 [Raft](http://nil.csail.mit.edu/6.824/2020/papers/raft-extended.pdf)），对于这种主从同步的分布式流程大概搞清楚了，接下来就是做实验 2 了。
 3. 才发现[Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters)后面还有好几章没看，而且内容好多，重新认识到 haskell 这门编程语言真的挺复杂的，之前学了点 scheme 就天真的以为 haskell 和 scheme 差不多，现在才发现我太天真了，scheme 确实是世上最简单的编程语言啊。
 4. [EOPL](https://book.douban.com/subject/3136252/) 和 [leetcode-crawler](https://github.com/sishenhei7/leetcode-crawler) 这周鸽了。
+5. 附上一个 [rust os](https://learningos.github.io/rust-based-os-comp2022/)训练营，后面准备开坑。感觉我准备朝语言方向发展？
 
 ### 总结
 
